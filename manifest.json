@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "CBT Login Check",
+  "version": "1.303",
+  "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+"content_scripts": [
+  {
+    "matches": ["*://*.crossbrowsertesting.com/*"],
+    "js": ["content.js"]
+  }
+],
+
+"page_action": {
+  "default_popup": "popup.html",
+  "default_icon": {
+    "16": "images/mainlogo.png"
+    
+  }
+},
+"icons": {
+  "16": "images/mainlogo.png"
+
+
+}
+}
