@@ -1,9 +1,9 @@
-## Welcome to the CBT Login Verification Chrome Extension!
+## <center>Welcome to the CBT Login Verification Chrome Extension!<center>
 
-### This is a Chrome extension that will monitor the loggedInEmail ID in the CBT app. If this ID does not match your 
-### provided email address, it will change the background color of the page to alert you of this. 
+### This Chrome extension will monitor the loggedInEmail ID in the CBT app and alert you if this ID does not match the specified email address, changing the background color of the page to alert you of this. 
 
-### To start, clone this repo into the darkest recess of your drive and open CONTENT.JS
+
+### Clone this repo into the darkest recess of your drive and open CONTENT.JS
 
 ### To enable this for your specific account, enter your email on line 13 of the CONTENT.JS file.
 
