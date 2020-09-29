@@ -1,3 +1,6 @@
+// This monitors the current URL and shift the plugin icon from Grey to Colored to 
+// indicate it is active. Still buggy as it enables the icon regardless of URL. 
+// Need to work on this so it's only colored when on a app.cbt URL.
 chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
   chrome.declarativeContent.onPageChanged.addRules([{
     conditions: [new chrome.declarativeContent.PageStateMatcher({
