@@ -7,7 +7,7 @@ How to Install & Setup
 
 * To enable this for your specific account, enter your email on line 9 of the CONTENT.js file.
 
-* Now, head to Chrome and navigate to "chrome://extensions/"
+* Now, head over to Chrome and navigate to [chrome://extensions/](chrome://extensions)
 
  * In the top right, enable "Developer mode", then on the left, click on "Load Unpacked" and select the installation dungeon this repo is located. 
 
