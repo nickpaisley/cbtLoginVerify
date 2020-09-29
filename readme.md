@@ -9,7 +9,7 @@ This Chrome extension will monitor the loggedInEmail ID in the CBT app and alert
 
  Now, head to Chrome and navigate to "chrome://extensions/"
 
- In the top left, click on "Load Unpacked" and select the installation dungeon this repo is located. 
+ In the top right, enable "Developer mode", then on the left, click on "Load Unpacked" and select the installation dungeon this repo is located. 
 
  That should be it! If you log in as someone else and refresh the page it should be a shade of yellow. 
 
