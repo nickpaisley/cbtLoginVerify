@@ -13,6 +13,6 @@ This Chrome extension will monitor the loggedInEmail ID in the CBT app. If this 
 
  That should be it! If you log in as someone else and refresh the page it should be a shade of yellow. 
  
- If you don't like the background color, go [HERE](https://www.google.com/search?q=css+color+picker&rlz=1C5CHFA_enUS889US889&oq=css&aqs=chrome.0.69i59j69i57j35i39j0l2j69i60j69i61j69i60.2004j0j7&sourceid=chrome&ie=UTF-8), grab a color and enter it in line 18 of the CONTENT.js file. 
+ If you don't like the background color, go [HERE](https://www.google.com/search?q=css+color+picker&rlz=1C5CHFA_enUS889US889&oq=css&aqs=chrome.0.69i59j69i57j35i39j0l2j69i60j69i61j69i60.2004j0j7&sourceid=chrome&ie=UTF-8), grab a color and enter it in line 14 of the CONTENT.js file. 
 
 ### Party on!
