@@ -5,7 +5,7 @@ This Chrome extension will monitor the loggedInEmail ID in the CBT app. If this 
 
  Clone this repo into the darkest recess of your drive and open CONTENT.js
 
- To enable this for your specific account, enter your email on line 13 of the CONTENT.js file.
+ To enable this for your specific account, enter your email on line 9 of the CONTENT.js file.
 
  Now, head to Chrome and navigate to "chrome://extensions/"
 
