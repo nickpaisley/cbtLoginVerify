@@ -4,7 +4,6 @@ var emailCheck = (document.getElementById('loggedInEmail'));
 // First set a timeout to allow the page to load, then check emailCheck if it contains our email. 
 // If so, do nothing..If not, set background.
 setTimeout(() => {
- 
 
         var emailCheck = (document.getElementById('loggedInEmail'));
         var loggedInEmail = (emailCheck.innerText);
@@ -17,7 +16,6 @@ setTimeout(() => {
           console.log('nope');
           document.body.style.backgroundColor = "#fcdb03";
         }
-
 }, 2500)
 
 
