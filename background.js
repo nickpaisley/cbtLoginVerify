@@ -9,3 +9,12 @@ chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     actions: [new chrome.declarativeContent.ShowPageAction()]
   }]);
 });
+
+
+// begin creating popup controls.
+// let's start by putting the alternate background color in storage
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.storage.sync.set({color: '#fcdb03'}, function() {
+    console.log("The background color will be green.");
+  });
+});
